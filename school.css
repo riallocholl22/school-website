@@ -1,0 +1,214 @@
+/*Shool.css*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 135vh;
+    width: 100%;
+    background-image: url('img/mku.ac.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ animation-duration: 3px;
+ 
+}
+.container{
+  background-color: darkblue;
+  padding-top: 0%;
+  padding-bottom: 15px;
+  background-attachment: fixed;
+ 
+
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu ul li a{
+    color: white;
+
+}
+.menu a{text-decoration: none;
+
+}
+.menu ul{text-decoration: none; 
+    list-style: none;  
+
+
+}
+.main{
+    background-color: #fff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.main ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+li a{
+    text-decoration: none;
+}
+.main ul li a{
+    color: #dd9933;
+}
+.mku{
+  padding-bottom: 30px;
+  font-size: 4px;
+  height: 20vh;
+  width: 40%;
+  padding-top: 20px;
+  margin-right: 100px;
+  color: darkblue;
+  
+}
+.main li{
+    padding-top: 40px;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color: #666;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+  li{
+    list-style: none; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.scrollable{
+    overscroll-behavior: smooth;
+    top: 5px;
+    bottom: 7px;
+
+}
+.p-2{
+  padding-top: 200px;
+    color: yellow;
+    text-align: center;
+    font-size: 80px;
+}
+.footer{
+    height: 80vh;
+    width: 100%;
+    padding-top: 60px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer ul li a{
+    color: #666;
+   
+}
+.hero{
+
+    padding-top: 200px;
+    font-family: bold;
+    color: blue;
+    text-align: center;
+
+
+}
+ul{
+    padding-top: 40px;
+    padding-right: 20px;
+    
+
+}
+.home{
+color: #dd9933;
+}
+.FOO{
+    height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+h4{
+
+    padding-top: 8px;
+    font-family: bold;
+    color: blue;
+    text-align: center;
+    
+}
+.p-3{
+    color:#666
+
+}
+.h{
+padding-top: 5px;
+ font-weight: bold;
+ color: blue;
+}
+button{
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    padding: 30px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: red;
+}
+button:hover{
+    cursor: pointer;
+
+}
+.elite{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-a{
+    height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dd9933;
+    font-size: 13px;
+}
+.footer ul li a{
+    color: #666;
+   
+}
+.hero-2{
+    font-size: 25px;
+    padding-top: 20px;
+background-color: #dd9933;
+color: white;
+}
+.m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    color: rgb(0, 0, 0);
+
+}
+
+img{
+    border-radius: 39%;
+}
